@@ -1,0 +1,126 @@
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="title_lbl" value="SAP BTP Guidance Framework — Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="80" y="20" width="900" height="45" as="geometry" />
+    </mxCell>
+    <mxCell id="grp_g1" value="Framework Core" style="swimlane;startSize=30;fontStyle=1;fontSize=12;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+      <mxGeometry x="80" y="80" width="200" height="130" as="geometry" />
+    </mxCell>
+    <mxCell id="grp_g2" value="Audience Pillars" style="swimlane;startSize=30;fontStyle=1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+      <mxGeometry x="80" y="240" width="560" height="130" as="geometry" />
+    </mxCell>
+    <mxCell id="grp_g3" value="Content Assets" style="swimlane;startSize=30;fontStyle=1;fontSize=12;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+      <mxGeometry x="80" y="400" width="740" height="210" as="geometry" />
+    </mxCell>
+    <mxCell id="grp_g4" value="Solution Domains" style="swimlane;startSize=30;fontStyle=1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+      <mxGeometry x="80" y="640" width="740" height="210" as="geometry" />
+    </mxCell>
+    <mxCell id="grp_g5" value="Foundation" style="swimlane;startSize=30;fontStyle=1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+      <mxGeometry x="80" y="880" width="560" height="130" as="geometry" />
+    </mxCell>
+    <mxCell id="c10" value="SAP BTP GF" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=11;" vertex="1" parent="grp_g1" tooltip="SAP BTP Guidance Framework — central compass for adopting SAP BTP">
+      <mxGeometry x="20" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c11" value="Architects" style="shape=mxgraph.basic.person;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="grp_g2" tooltip="Guidance for Architects: reference architectures, extension guide, methodologies">
+      <mxGeometry x="20" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c12" value="Developers" style="shape=mxgraph.basic.person;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="grp_g2" tooltip="Guidance for Developers: Developer&apos;s Guide, decision guides, DevOps">
+      <mxGeometry x="200" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c13" value="Administrators" style="shape=mxgraph.basic.person;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="grp_g2" tooltip="Guidance for Administrators: security and general recommendations">
+      <mxGeometry x="380" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c14" value="Decision Guides" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="grp_g3" tooltip="Help teams choose between competing options and platforms">
+      <mxGeometry x="20" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c15" value="Ref Architectures" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="grp_g3" tooltip="Curated solution templates at SAP Discovery Center">
+      <mxGeometry x="200" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c16" value="Methodologies" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="grp_g3" tooltip="ISA-M, DAAM, AEM — structured strategy frameworks">
+      <mxGeometry x="380" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c17" value="DevOps" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="grp_g3" tooltip="DevOps with SAP BTP — CI/CD, delivery, and operations">
+      <mxGeometry x="560" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c18" value="Recommendations" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="grp_g3" tooltip="Security and operational best-practice recommendations">
+      <mxGeometry x="20" y="130" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c19" value="App Dev" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="grp_g4" tooltip="Custom applications and side-by-side extensions">
+      <mxGeometry x="20" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c20" value="Automation" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="grp_g4" tooltip="Workflow, RPA, and intelligent process orchestration">
+      <mxGeometry x="200" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c21" value="Integration" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="grp_g4" tooltip="Connecting SAP and non-SAP systems via APIs and events">
+      <mxGeometry x="380" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c22" value="Data &amp; Analytics" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="grp_g4" tooltip="Data management, BI, and advanced analytics on BTP">
+      <mxGeometry x="560" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c23" value="AI" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="grp_g4" tooltip="Embedding AI/ML capabilities into business processes">
+      <mxGeometry x="20" y="130" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c24" value="Best Practices" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;dashed=1;" vertex="1" parent="grp_g5" tooltip="Cross-cutting principles applicable to all roles and domains">
+      <mxGeometry x="20" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c25" value="Learning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;dashed=1;" vertex="1" parent="grp_g5" tooltip="Structured learning paths and hands-on enablement resources">
+      <mxGeometry x="200" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="c26" value="Community" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=11;dashed=1;" vertex="1" parent="grp_g5" tooltip="SAP BTP practitioner community, forums, and events">
+      <mxGeometry x="380" y="50" width="160" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="e27" value="provides guidance" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c10" target="c11" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e28" value="provides guidance" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c10" target="c12" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e29" value="provides guidance" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c10" target="c13" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e30" value="uses" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c11" target="c15" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e31" value="uses" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c11" target="c16" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e32" value="consults" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c11" target="c14" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e33" value="consults" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c12" target="c14" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e34" value="follows" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c12" target="c17" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e35" value="follows" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c13" target="c18" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e36" value="covers" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c15" target="c19" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e37" value="covers" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c15" target="c21" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e38" value="ISA-M" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c16" target="c21" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e39" value="DAAM" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c16" target="c22" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e40" value="AEM" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c16" target="c19" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e41" value="grounded in" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c10" target="c24" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e42" value="grounded in" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c10" target="c25" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e43" value="grounded in" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=1;orthogonalLoop=1;jettySize=auto;fontSize=10;" edge="1" source="c10" target="c26" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+  </root>
+</mxGraphModel>
